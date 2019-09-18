@@ -28,9 +28,11 @@ int main() {
     } while(i<=10);
     
     //Numero indovinato
-    if(i<=10) printf("\nNumero indovinato in %d tentativi.\n", i);
+    if(i<=10)
+		printf("\nNumero indovinato in %d tentativi.\n", i);
 	//Numero non indovinato
-    else printf("\nNumero non indovinato. Il numero era %d.\n", N);
+    else
+		printf("\nNumero non indovinato. Il numero era %d.\n", N);
     
     /* Pause */
     getch();
